@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamsFilterTweets",
+            "request": "launch",
+            "mainClass": "com.learning.kafka.tutorial4streams.StreamsFilterTweets",
+            "projectName": "kafka-beginners-course"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ElasticSearchConsumer",
+            "request": "launch",
+            "mainClass": "com.learning.tutorial3.ElasticSearchConsumer",
+            "projectName": "kafka-beginners-course"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ConsumerDemo<kafka-beginners-course>",
+            "request": "launch",
+            "mainClass": "com.learning.kafka.tutorial1.ConsumerDemo",
+            "projectName": "kafka-beginners-course"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ConsumerDemoGroups<kafka-beginners-course>",
+            "request": "launch",
+            "mainClass": "com.learning.kafka.tutorial1.ConsumerDemoGroups",
+            "projectName": "kafka-beginners-course"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ConsumerDemoWithThread<kafka-beginners-course>",
+            "request": "launch",
+            "mainClass": "com.learning.kafka.tutorial1.ConsumerDemoWithThread",
+            "projectName": "kafka-beginners-course"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ProducerDemo<kafka-beginners-course>",
+            "request": "launch",
+            "mainClass": "com.learning.kafka.tutorial1.ProducerDemo",
+            "projectName": "kafka-beginners-course"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ProducerDemoKeys<kafka-beginners-course>",
+            "request": "launch",
+            "mainClass": "com.learning.kafka.tutorial1.ProducerDemoKeys",
+            "projectName": "kafka-beginners-course"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ProducerDemoWithCallBack<kafka-beginners-course>",
+            "request": "launch",
+            "mainClass": "com.learning.kafka.tutorial1.ProducerDemoWithCallBack",
+            "projectName": "kafka-beginners-course"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TwitterProducer<kafka-beginners-course>",
+            "request": "launch",
+            "mainClass": "com.learning.kafka.tutorial2.TwitterProducer",
+            "projectName": "kafka-beginners-course"
+        }
+    ]
+}
