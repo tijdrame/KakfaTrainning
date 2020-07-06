@@ -20,8 +20,10 @@ public class ConsumerDemo {
     public static void main(String[] args) {
         Logger logger = LoggerFactory.getLogger(ConsumerDemo.class);
         String bootstrapServer = "127.0.0.1:9092";
-        String groupId = "my-fith-application";
-        String topic = "first_topic";
+        //String groupId = "my-fith-application";
+        //String topic = "first_topic";
+        String groupId = "eerd-kafka15";
+        String topic = "BOA_UNBLCK_CLT_SUSPECT";
         // create consumer configs
         Properties properties = new Properties();
         properties.setProperty(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServer);

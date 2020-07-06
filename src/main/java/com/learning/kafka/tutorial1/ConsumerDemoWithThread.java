@@ -30,8 +30,8 @@ public class ConsumerDemoWithThread {
     private void run() {
         final Logger logger = LoggerFactory.getLogger(ConsumerThread.class);
         String bootstrapServer = "127.0.0.1:9092";
-        String groupId = "my-sixt-application";
-        String topic = "first_topic";
+        String groupId = "eerd-kafka";
+        String topic = "BOA_UNBLCK_CLT_SUSPECT";
         final CountDownLatch latch = new CountDownLatch(1);
         logger.info("###############Creating the consumer thread");
         final Runnable myConsumer = new ConsumerThread(bootstrapServer, groupId, topic, latch);
